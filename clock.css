@@ -1,0 +1,140 @@
+body{
+    background-color: #f1f2f6;
+}
+#clock{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #7f8c8d;
+    background-color: #c8acac;
+    /* background-image: conic-gradient(red 0deg, red 30deg, blue 30deg, blue 60deg, red 60deg, red 90deg,  rgb(21, 255, 0) 90deg ,rgb(0, 255, 30) 120deg,blue 120deg ,blue 150deg,red 150deg ,red 180deg , blue 180deg ,blue 210deg ,red 210deg , red 240deg ,blue 240deg ,blue 270deg ,red 270deg ,red 300deg, blue 300deg ,blue 330deg,rgb(255, 255, 255) 330deg ,rgb(255, 255, 255) 360deg); */
+    /* background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg); */
+    text-align: center;
+    /* z-index: 1; */
+    margin-top: 5%;
+    margin-left: 40%;
+    position: relative;
+    top: 48px;
+    left: 1.5px;
+    /* transform-origin:center */
+}
+img{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    z-index: -1;
+}
+#one{
+    position: relative;
+    top: 5px;
+    left: 70px;
+}
+#two{
+    position: relative;
+    top: 35px;
+    left: 120px;
+}
+#three{
+    position: relative;
+    left: 140px;
+    top: 86px;
+}
+#four{
+    position: relative;
+    left: 120px;
+    top: 137px;
+}
+#five{
+    position: relative;
+    left: 68px;
+    top: 170px;
+}
+#six{
+    position: relative;
+    left: 0px;
+    top: 173px;
+}
+#seven{
+    position: relative;
+    left: -70px;
+    top: 130px;
+}
+#eight{
+    position: relative;
+    left: -120px;
+    top: 64px;
+}
+#nine{
+    position: relative;
+    left: -140px;
+    top: -24px;
+}
+#ten{
+    position: relative;
+    top: -113px;
+    left: -120px;
+}
+#eleven{
+    position: relative;
+    top: -183px;
+    left: -70px;
+}
+#dot{
+    height: 20px;
+    width: 20px;
+    background-color: #313636;
+    position: relative;
+    left: 140px;
+    top: -80px;
+    z-index: 1;
+    /* border-radius: 50%; */
+}
+.hands{
+    position: absolute;
+    left: 147px;
+    top: 45px;
+    height: 120px;
+    width: 5px;
+    /* background-color: black; */
+}
+.hours{
+    position: absolute;
+    top: 40px;
+    left: 146px;
+    height: 110px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: rgb(34, 144, 184);
+    z-index: 1;
+    transform-origin: bottom;
+}
+.minutes{
+    position: absolute;
+    top: 30px;
+    left: 146px;
+    height: 120px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: rgb(223, 30, 30);
+    /* z-index: 2; */
+    transform-origin: bottom;
+}
+.seconds{
+    position: absolute;
+    top: 20px;
+    left: 148px;
+    height: 130px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: rgb(30, 223, 69);
+    transform-origin: bottom;
+    /* z-index: 3; */
+    /* transition: all 1s ease; */
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    text-decoration: underline;
+    text-decoration-color: #f7b731;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="" id="logo">Logo</a>
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="mainicon">
+            <div class="menu" id="menu">
+                <i class="bi bi-list"></i>
+            </div>
+        </label>
+        <nav>
+            <a href="frontdesign.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="education.html">Education</a>
+            <a href="skills.html">skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section>
+
+    <div id="cont">Contact us</div>
+    <br>
+        <div class="contact">
+            <form action="/form/submit" method="post">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" placeholder="Type your name">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="surname" placeholder="Type your lat name">
+            <label for="mail">E-Mail</label>
+            <input type="text" id="mail" name="e-mail" placeholder="Type your e-mail">
+            <label for="state">state</label>
+            <select name="state" id="state">
+                <option value="Banglore">Banglore</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="chennai">chennai</option>
+                <option value="Kerala">kerala</option>
+                <option value="Delhi">Delhi</option>
+                <option value="other">other</option>
+            </select>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Type your message"></textarea>
+            <input type="submit" value="send">
+        </form>
+        </div>
+    </section>
+</body>
+</html>

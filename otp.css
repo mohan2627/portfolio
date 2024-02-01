@@ -1,0 +1,28 @@
+#vid{
+    position:fixed;
+    z-index: -1;
+    /* width: 95em; */
+    width: 99%;
+}
+.in{
+    border: 2px solid black;
+    height: 200px;
+    width: 350px;
+    /* height: 15em;
+    width: 25em; */
+    text-align: center;
+    /* margin-top: 10%;
+    margin-left: 40%;   */
+    position: relative;
+    top: 10em;
+    left: 40em;
+}
+h1{
+    color: red;
+}
+span{
+    color: #f50606;
+}
+#output{
+    color: #f50606;
+}
